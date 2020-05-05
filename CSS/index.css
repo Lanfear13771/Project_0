@@ -1,0 +1,79 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .wide {
+      display: none;
+    }
+  }
+
+.top-navbar{
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    top: 0px;
+}
+.top-navbar-contents{
+    padding: 30px;
+    height: auto;
+    background-color: rgba(169, 255, 255,0.5);
+}
+
+.top-nav{ 
+    display: grid;
+    justify-content: center;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px)); /*this will put the nav items into columns, auto-fit will expand the children to fill the top of the screen*/
+    padding: auto;
+    width: 100%;
+}
+.top-nav-item{
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    margin-top: 10px;
+    height: 3vh;
+}
+.top-nav-item:hover{
+    background-color: rgb(169, 255, 255);
+    box-shadow: 10px rgb(0, 0, 0);
+}
+
+
+
+.contents{
+    text-align: center;
+    justify-content: center;
+
+}
+
+h1,
+h2{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.7);
+}
+#background{
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1
+}
+.background-image {
+    width:100%;
+    height:100%;
+}

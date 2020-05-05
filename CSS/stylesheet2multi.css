@@ -1,0 +1,104 @@
+.container {
+  background-color: white;
+}
+
+a {
+  padding-left: 15px;
+  color: white;
+}
+
+div {
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+}
+
+a:hover {
+  color: rgb(255, 5, 255);
+  background-color: white;
+  width: 130px;
+  text-decoration: none;
+}
+
+.top-navbar {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 128, 249, 0.7);
+}
+
+.top-navbar .top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.top-navbar .top-nav-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(80px, 400px))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(80px, 400px));
+  margin: 20px;
+}
+
+.profile-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-pic {
+  content: url("https://scontent-sea1-1.cdninstagram.com/v/t51.2885-19/s150x150/80606587_765851420588715_7665344810252763136_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_ohc=SaFJXbr7BCMAX_7qgMh&oh=53bda578354176a6305b11cb703aed81&oe=5ECD636B");
+  border-radius: 50%;
+  height: 17rem;
+}
+
+.top-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 10%;
+}
+
+.row {
+  height: 47vh;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.container {
+  margin-top: 20px;
+  height: 100%;
+  background-color: white;
+}
+
+.col-sm {
+  margin: 5px;
+  padding: 0px;
+  height: 97%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=stylesheet2multi.css.map */
